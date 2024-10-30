@@ -1,0 +1,207 @@
+@font-face {
+  font-family: "dmsans";
+  src: url("../fonts/static/DMSans-Regular.ttf");
+  font-weight: 100;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(238, 238, 238);
+}
+
+.container {
+  margin-top: 3rem;
+  width: 90%;
+}
+
+.box {
+  margin-bottom: 2rem;
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  flex-shrink: 1;
+  box-sizing: border-box;
+}
+
+.box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 100%;
+  background-color: hsl(256, 67%, 59%);
+  color: #fff;
+  font-family: "dmsans";
+  font-weight: 100;
+  padding: 2rem;
+}
+.box1 .text {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+.box1 span {
+  color: hsl(39, 100%, 71%);
+}
+.box1 .img {
+  text-align: center;
+}
+.box1 img {
+  width: 60%;
+}
+.box1 p {
+  color: hsl(31, 66%, 93%);
+}
+
+.box2 {
+  background-color: #fff;
+  padding: 1rem;
+  font-family: "dmsans";
+  font-size: 0.8rem;
+}
+.box2 img {
+  width: 100%;
+}
+.box2 h1 {
+  line-height: 1;
+}
+
+.box3 {
+  padding: 1rem;
+  padding-bottom: 0;
+  font-family: "dmsans";
+  font-size: 0.8rem;
+  background-color: hsl(39, 100%, 71%);
+  overflow: hidden;
+}
+.box3 h1 {
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+.box3 img {
+  width: 70%;
+  margin-bottom: -1rem;
+}
+
+.box4 {
+  background-color: hsl(254, 88%, 90%);
+  font-family: "dmsans";
+  font-size: 0.8rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box4 h1 {
+  line-height: 1;
+}
+.box4 .img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.box4 img {
+  width: 100%;
+}
+.box4 p {
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.box5 {
+  background-color: hsl(256, 67%, 59%);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "dmsans";
+  font-weight: 100;
+}
+.box5 img {
+  width: 100%;
+}
+.box5 h1 {
+  text-align: center;
+  color: #fff;
+  line-height: 1;
+  margin-top: 2rem;
+}
+
+.box6 {
+  background-color: #fff;
+  padding: 2rem;
+  font-family: "dmsans";
+}
+.box6 h1 {
+  font-size: 2.7rem;
+}
+.box6 p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: medium;
+}
+.box6 img {
+  width: 67%;
+}
+
+.box7 {
+  background-color: hsl(31, 66%, 93%);
+  padding: 2rem;
+  font-family: "dmsans";
+}
+.box7 h1 {
+  line-height: 1;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+.box7 span {
+  font-style: italic;
+  color: hsl(256, 67%, 59%);
+}
+.box7 img {
+  width: 70%;
+}
+
+.box8 {
+  background-color: hsl(39, 100%, 71%);
+  padding: 1.5rem;
+  font-family: "dmsans";
+}
+.box8 h1 {
+  line-height: 1;
+  margin-bottom: 2rem;
+}
+.box8 img {
+  width: 80%;
+}
+
+.attribution {
+  margin-bottom: 1rem;
+}
+
+/* Tablet View */
+@media screen and (min-width: 768px) {
+}
+
+/* Laptop View */
